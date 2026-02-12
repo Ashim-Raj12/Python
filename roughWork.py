@@ -42,3 +42,12 @@ if isAdult:
     print(f"Hello {name} , you can vote")
 else:
     print(f"Hello {name} , you can not vote")
+
+# Q5. Accept a year and check if it a leap year or not
+
+year = int(input("Enter Year to check : "))
+
+if year % 4 == 0:
+    print(f"{year} is leap year")
+else:
+    print(f"{year} is non leap year")
