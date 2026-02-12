@@ -30,3 +30,15 @@ if num % 2 == 0:
     print(f"{num} is Even")
 else:
     print(f"{num} is Odd")
+
+# Q4. Accept name and age from the user. Check if the user is a valid voter or not. Ex- “hello shery you are a valid voter”
+
+name = input("Enter your name : ")
+age = int(input("Enter your age : "))
+
+isAdult = age > 18
+
+if isAdult:
+    print(f"Hello {name} , you can vote")
+else:
+    print(f"Hello {name} , you can not vote")
