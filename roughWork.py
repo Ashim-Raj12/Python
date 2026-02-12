@@ -21,3 +21,12 @@ elif gender == "F":
 else:
     print("Please Enter a valid gender")
     print("Restart to see results")
+
+# Q3. Accept an integer and check whether it is an even number or odd.
+
+num = int(input("Enter an integer : "))
+
+if num % 2 == 0:
+    print(f"{num} is Even")
+else:
+    print(f"{num} is Odd")
