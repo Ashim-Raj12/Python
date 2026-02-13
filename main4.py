@@ -17,3 +17,15 @@ for i in range(0, len(name), 2):
 
 for char in name:
     print(char)
+
+# Break
+for i in range(1, 21):
+    if i == 15:
+        break  # Breaks the loop
+    print(i)
+
+# Continue
+for i in range(1, 21):
+    if i == 15:
+        continue
+    print(i)
