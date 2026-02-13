@@ -1,18 +1,22 @@
 # Accept an integer and Print hello world n times
 num = int(input("Enter a number : "))
 
+print(f"-----Hello World is printing {num} times-----")
 for i in range(num):
     print("Hello World")
 
 # Print natural number up to n
+print(f"-----Printing upto {num}-----")
 for i in range(1, num + 1):
     print(i)
 
 # Reverse for loop. Print n to 1
+print(f"-----Printing from {num} to 1-----")
 for i in range(num, 0, -1):
     print(i)
 
 # Take a number as input and print its table
+print(f"-----Multiplication Table of {num}-----")
 for i in range(1, 11):
     print(f"{num} * {i} = {num * i}")
 
@@ -44,3 +48,9 @@ for i in range(1, num + 1):
 
 print(f"Even Sum is : {even_sum}")
 print(f"Odd sum is : {odd_sum}")
+
+# Print all the factors of a number
+print(f"-----Printing factors of {num}------")
+for i in range(1, num + 1):
+    if num % i == 0:
+        print(i)
