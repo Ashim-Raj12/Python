@@ -31,3 +31,16 @@ for i in range(1, num + 1):
     result = result * i
 
 print(f"Factorial is {result}")
+
+# Print the sum of all even & odd numbers in a range separately
+odd_sum = 0
+even_sum = 0
+
+for i in range(1, num + 1):
+    if i % 2 != 0:
+        odd_sum = odd_sum + i
+    else:
+        even_sum = even_sum + i
+
+print(f"Even Sum is : {even_sum}")
+print(f"Odd sum is : {odd_sum}")
