@@ -66,3 +66,15 @@ if sum == num:
     print(f"{num} is perfect number")
 else:
     print(f"{num} is not a perfect number")
+
+# Check wether the number is prime or not
+count = 0
+
+for i in range(1, num + 1):
+    if num % i == 0:
+        count = count + 1
+
+if count > 2:
+    print(f"{num} is Composite")
+else:
+    print(f"{num} is Prime")
