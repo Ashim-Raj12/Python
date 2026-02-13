@@ -96,3 +96,22 @@ if random == rev_random:
     print(f"{random} is palindome")
 else:
     print(f"{random} is not palindrome")
+
+# Count all letters, digits, and special symbols from a given string
+gibrish = "ahs49#$5vd h*90 65**9dbjk h $89.0%"
+
+char = 0
+number = 0
+special = 0
+
+for i in gibrish:
+    if i.isalpha():
+        char = char + 1
+    elif i.isdigit():
+        number = number + 1
+    else:
+        special = special + 1
+
+print(f"The number of Characters in {gibrish} is : {char}")
+print(f"The number of Digits in {gibrish} is : {number}")
+print(f"The number of Special Character in {gibrish} is : {special}")
