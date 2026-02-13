@@ -54,3 +54,15 @@ print(f"-----Printing factors of {num}------")
 for i in range(1, num + 1):
     if num % i == 0:
         print(i)
+
+# Check if it a perfect number or not
+sum = 0
+
+for i in range(1, num):
+    if num % i == 0:
+        sum = sum + i
+
+if sum == num:
+    print(f"{num} is perfect number")
+else:
+    print(f"{num} is not a perfect number")
