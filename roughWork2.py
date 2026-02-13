@@ -79,6 +79,8 @@ if count > 2:
 else:
     print(f"{num} is Prime")
 
+print("----- String Questions -----")
+
 # Reverse a string without using in build functions
 random = input("Give a string to reverse : ")
 
@@ -87,4 +89,10 @@ rev_random = ""
 for char in random:
     rev_random = char + rev_random
 
-print(rev_random)
+print(f"{rev_random} is reverse of {random}")
+
+# Check for Palindrome
+if random == rev_random:
+    print(f"{random} is palindome")
+else:
+    print(f"{random} is not palindrome")
