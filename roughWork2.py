@@ -78,3 +78,13 @@ if count > 2:
     print(f"{num} is Composite")
 else:
     print(f"{num} is Prime")
+
+# Reverse a string without using in build functions
+random = input("Give a string to reverse : ")
+
+rev_random = ""
+
+for char in random:
+    rev_random = char + rev_random
+
+print(rev_random)
