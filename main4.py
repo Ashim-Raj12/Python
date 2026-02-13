@@ -7,25 +7,42 @@ for i in range(1, 11, 1):
     print(f"{num} * {i} = {num * i}")
 
 for i in range(0, num, 2):
-    print(i)
+    print(i, end=" ")
+
+print()
 
 # For Loops for String
 name = "Ashim Raj"
 
 for i in range(0, len(name), 2):
-    print(name[i])
+    print(name[i], end=" ")
+
+print()
 
 for char in name:
-    print(char)
+    print(char, end=" ")
+
+print()
 
 # Break
 for i in range(1, 21):
     if i == 15:
         break  # Breaks the loop
-    print(i)
+    print(i, end=" ")
+
+print()
 
 # Continue
 for i in range(1, 21):
     if i == 15:
         continue
-    print(i)
+    print(i, end=" ")
+
+print()
+
+# While Loop
+a = 1
+
+while a <= 30:
+    print(a, end=" ")
+    a = a + 1
